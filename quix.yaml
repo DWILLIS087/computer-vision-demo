@@ -303,11 +303,4 @@ deployments:
         value: ''
 
 # This section describes the Topics of the data pipeline
-topics:
-  - name: buffered-data
-    persisted: false
-    configuration:
-      partitions: 1
-      replicationFactor: 2
-      retentionInMinutes: 60
-      retentionInBytes: 51200
+topics: []
